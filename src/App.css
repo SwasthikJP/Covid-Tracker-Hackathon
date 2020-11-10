@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: lightgray;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(58, 18, 58);
+    font-size: 2.9vw;
+   margin-bottom: 2vw;
+}
+hr{
+ 
+  border-width: 0;
+ background-color: rgb(75, 197, 154);
+  height: 4px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+h3{
+  margin-top: 2vw;
+    font-size: 1.5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+
+
+label{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1.05em;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+p{
+    font-size: 1.9vw;
+   font-weight: 400;
+}
+
+table{
+    margin: 2vw 0vw;
+    font-size: 1.4vw;
+    
+}
+
+table,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 1vw;
+    background-color: rgb(205, 226, 220);
+}
+
+div{
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+
+input[type="submit"] ,input[type="date"],select{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1.05em;
+  outline: none;
+  border: none;
+  padding:4px;
+ background-color:rgb(66, 186, 202);
+ margin:0px 5px;
+}
+
+input[type="submit"]:hover{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* button{
+    border: 0;
+    margin: 0%;
+    padding: 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ outline: none;
+ background-color: lightgray;
+
+} */
+
+
+
+
+
+
+footer p{
+    text-align: center;
+    font-size: 1.35vw;
+   
+}
+footer{
+    background-color:rgb(69, 202, 156);
+    padding: 1.3vw;
 }
